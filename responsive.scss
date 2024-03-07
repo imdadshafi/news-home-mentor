@@ -1,5 +1,5 @@
 @media (min-width: 992px) {
-    header {
+    .header {
       margin: 7rem 0 4.3rem 0;
      
       .site-logo img{
@@ -60,3 +60,43 @@
       }
     }
   }
+
+
+
+
+
+
+
+  /* Responsive start */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  
+  .container {
+    max-width: 1200px;
+  }
+  html {
+    font-size: 13.5px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1500px;
+  }
+  html {
+    font-size: 16px;
+  }
+}

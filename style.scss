@@ -29,8 +29,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: hsl(36, 100%, 99%);
@@ -112,11 +110,13 @@ button:focus-visible {
   padding-left: 15px;
   padding-right: 15px;
 }
-header {
+.header {
   margin: 1rem 0;
-  display: flex;
+  &__content {
+    display: flex;
   justify-content: space-between;
   align-items: center;
+  }
   .site-logo img{
     width: 60px;
   }
